@@ -18,7 +18,6 @@
   strong {
     color: blue;
   }
-  h6 {
-    outline-color: green;
-    animation: <single-animation-fill-mode> left;
+  h2 {
+    color: black;
   }
