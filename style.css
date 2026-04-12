@@ -1,0 +1,24 @@
+  body {    
+   display: flex;
+   flex-direction: column;
+   align-items: center;    
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+  }
+  li {
+   color: black;
+  }
+  a {
+    color: white;
+  }
+  strong {
+    color: blue;
+  }
+  h6 {
+    outline-color: green;
+    animation: <single-animation-fill-mode> left;
+  }
